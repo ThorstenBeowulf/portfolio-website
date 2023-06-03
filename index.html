@@ -4,35 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Document</title>
+    <title>Welcome To Thorsten's Portfolio Page</title>
 </head>
 <body>
     <header>
-        <h1>Header Text Left</h1>
+        <h1>Thorsten Beowulf</h1>
         <nav>
-            Nav Bar Right
+            <ul>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact-me">Contact Me</a></li>
+                <li><a href="#resume">Resume</a></li>
+            </ul>
         </nav>
     </header>
-    <div>
-        Banner Picture
-    </div>
+    <div class="top-banner" title="Title-Pic"></div>
     <main>
         <section>
-            <div>About Me</div>
-            <div>About Text</div>
+            <div class="section-heading" id="about-me"><h1>About Me</h1></div>
+            <div class="section-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, quaerat molestiae! Asperiores officiis saepe sunt enim natus dolore quod sed ipsum, inventore obcaecati, quis nostrum dicta, eligendi atque sapiente possimus!</p>
+            </div>
         </section>
         <section>
-            <div>Work</div>
-            <div>Cards 1+2+2</div>
+            <div class="section-heading" id="work"><h1>Work</h1></div>
+            <div class="section-content work">
+                <div class="card main-card">
+                    <a href="project-1"><img src="./assets/images/640-red-flower-field-at-sunset.jpeg" alt=""></a>
+                    <h2>project-1</h2>
+                </div>
+                <div class="card">
+                    <a href="project-2"><img src="./assets/images/placeholder.jpg" alt=""></a>
+                    <h2>project-2</h2>
+                </div>
+                <div class="card">
+                    <a href="project-3"><img src="./assets/images/placeholder.jpg" alt=""></a>
+                    <h2>project-3</h2>
+                </div>
+                <div class="card">
+                    <a href="project-4"><img src="./assets/images/placeholder.jpg" alt=""></a>
+                    <h2>project-4</h2>
+                </div>
+                <div class="card">
+                    <a href="project-5"><img src="./assets/images/placeholder.jpg" alt=""></a>
+                    <h2>project-5</h2>
+                </div>
+            </div>
         </section>
         <section>
-            <div>Contact Me</div>
-            <div>Contact Info</div>
+            <div class="section-heading" id="contact-me"><h1>Contact Me</h1></div>
+            <div class="section-content">
+                <ul>
+                    <li><a href="#">0468577158</a></li>
+                    <li><a href="#">tbeowulf@gmail.com</a></li>
+                    <li><a href="https://github.com/ThorstenBeowulf">https://github.com/ThorstenBeowulf</a></li>
+                    <li><a href="#">social</a></li>
+                </ul>
+            </div>
         </section>
     </main>
-    <footer>
-        Footer Text
-    </footer>
+
 </body>
 </html>
