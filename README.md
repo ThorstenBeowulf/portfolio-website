@@ -17,7 +17,7 @@ The Features of the page are:
 
 ## Deployed Application
 
-Link to the deployed page: https://thorstenbeowulf.github.io/challenge2-portfolio/#contact-me
+Link to the deployed page: https://thorstenbeowulf.github.io/challenge2-portfolio/
 
 ![Screenshot 2023-06-04 160323](https://github.com/ThorstenBeowulf/challenge2-portfolio/assets/90459268/bedba14d-569a-4412-bd4e-4d3101a25db7)
 
